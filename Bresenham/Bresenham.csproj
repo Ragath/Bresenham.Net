@@ -6,4 +6,25 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <PackageId>Bresenham.Net</PackageId>
+    <Description>A C# implementation of the Bresenham family of algorithms.</Description>
+    <Product>Bresenham.Net</Product>
+    <Company>Daniel Sör</Company>
+    <Authors>Daniel Sör</Authors>
+    <PackageTags>bresenham line linedrawing</PackageTags>
+    <PackageProjectUrl>https://github.com/Ragath/Bresenham.Net</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ragath/Bresenham.Net</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md">
+      <Pack>True</Pack>
+      <PackagePath>/</PackagePath>
+    </None>
+  </ItemGroup>
+
 </Project>
